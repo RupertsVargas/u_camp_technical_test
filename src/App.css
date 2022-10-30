@@ -250,6 +250,7 @@ html[data-theme="dark"] {
   /* font-family: 'Roboto'; */
   height: 262px;
   color: var(--letter-color);
+  margin-bottom: 42px;
 }
 
 .cardInfo h1 {
@@ -349,7 +350,10 @@ html[data-theme="dark"] {
   -webkit-transition-delay: .2s;
           transition-delay: .2s;
 }
-
+.rdt_Table{
+  padding-bottom: 34px;
+  background-color: var(--tableBody-color) !important;
+}
 .rdt_TableRow{
   width:25% !important;
   margin-top: 24px;
@@ -530,31 +534,7 @@ html[data-theme="dark"] {
   
 
   
-@media screen and (min-width: 0px) and (max-width: 700px){
-  .rdt_TableRow{
-   /* background-color: #000 !important; */
-   width: 50% !important;
-  }
-  .customCheckLabel .form-check-label{
-    display: none;
-  }
-  .photoMe {
-   
-    width: 69px;
-    height: 60px;
-  }
-  .formInputSearchCustome{
-    width: 70%;
-    /* border-radius: 111px;
-    width: 280px;
-    outline-offset: 0px !important;
-    font-size: 158%;
-        border: 2px solid var(--search-color);
-        background-color: var(--search-color);
-        color:var(--letter-color);
-    padding-left: 3%; */
-  }
- }
+
 
 
 .htmlBodyInit{
@@ -565,6 +545,7 @@ html[data-theme="dark"] {
   height: 75vh;
   width: 100%;
   flex-wrap: nowrap;
+  padding: 8%;
   font-weight: 100;
   font-size: 200%;
   text-align: justify;
@@ -583,3 +564,39 @@ html[data-theme="dark"] {
   color:var(--colorMyName-colo);
   border-top: 2px solid gray;
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+  .rdt_TableRow{
+   /* background-color: #000 !important; */
+   width: 50% !important;
+  }
+  .customCheckLabel .form-check-label{
+    display: none;
+  }
+  .photoMe {
+   
+    width: 60px;
+    height: 60px;
+  }
+  .formInputSearchCustome{
+    width: 70%;
+    /* border-radius: 111px;
+    width: 280px;
+    outline-offset: 0px !important;
+    font-size: 158%;
+        border: 2px solid var(--search-color);
+        background-color: var(--search-color);
+        color:var(--letter-color);
+    padding-left: 3%; */
+  }
+  .cardInfo{
+    height: 52vh;
+  }
+  .htmlBodyInit{
+    padding: 5%;
+  }
+.subTitleHtml{
+  font-size: 70%;
+}
+ }

@@ -20,7 +20,7 @@ const HtmlBody = (param) => {
     return (
         <div className='htmlBodyInit'>
             <div className="titleHtmlBodyInit">U Camp Technical Test</div>
-            <div>🤟🏻Prueba técnica para los futuros instructores y facilitadores de U Camp 🤓💻</div>
+            <div className="subTitleHtml">🤟🏻Prueba técnica para los futuros instructores y facilitadores de U Camp 🤓💻</div>
             <div>Autor</div>
             <div className="nameMe">Roberto Vargas Arizmendi</div>
         </div>
