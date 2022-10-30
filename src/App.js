@@ -23,7 +23,8 @@ import Form from 'react-bootstrap/Form'
 // import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 // import {dataParam} from "./js/FormUsers";
 // import 
-
+// var linkApi = "http://localhost:4000/";
+var linkApi = "https://ucamptechnicaltestserverapivercel.vercel.app/"; 
 let userSize = 10;
 export var whoIs = {};
 var dataUsersGlobal = [];
@@ -388,7 +389,7 @@ class App extends Component {
                 let search_ = this.props.search;
                 console.warn(search_);
                 let test = null;
-                test = fetch("http://localhost:4000/api/search?query="+search_ , {
+                test = fetch(linkApi+"api/search?query="+search_ , {
         method: 'GET',
         // mode: 'cors',
         // body: JSON.stringify({ 'parametro': 23 }),
@@ -512,7 +513,8 @@ class App extends Component {
       console.log(this.state.search);
       let search_ = this.state.search;
       // let test = null;
-      let test = fetch("http://localhost:4000/api/search?query="+search_ , {
+      // http://localhost:4000/api/search?query
+      let test = fetch(linkApi+"api/search?query="+search_ , {
         method: 'GET',
         // mode: 'cors',
         // body: JSON.stringify({ 'parametro': 23 }),
