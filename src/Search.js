@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import ReactDOM from 'react-dom';
+import createRoot  from 'react-dom';
 import SearchInput, {createFilter} from 'react-search-input'
 import App from './App';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -126,7 +126,7 @@ class Search extends React.Component {
         this.state.showInit = false;
         this.setState({showInit: false});
         // this.setState(this.)
-        ReactDOM.render(
+        createRoot.render(
             <App
             count = {count}
             search={pala} />

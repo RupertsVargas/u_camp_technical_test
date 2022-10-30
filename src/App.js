@@ -712,7 +712,7 @@ class App extends Component {
           </DropdownButton>
 
           </div>
-          <div class="containerDataTableBack" >
+          <div className="containerDataTableBack" >
             {/* <div id="idLoad">Cargando</div> */}
             {/* {SetDataTableFirst(setDataVar)} */}
             <DataTable 
