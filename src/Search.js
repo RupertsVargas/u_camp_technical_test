@@ -21,6 +21,12 @@ const HtmlBody = (param) => {
         <div className='htmlBodyInit'>
             <div className="titleHtmlBodyInit">U Camp Technical Test</div>
             <div className="subTitleHtml">🤟🏻Prueba técnica para los futuros instructores y facilitadores de U Camp 🤓💻</div>
+            <div className="infoSubTitleHtml">
+            📝El objetivo del test técnico es construir un Front-End y un Back-End que interactuen con una API externa.
+            <br></br>
+            👀Vamos a usar la API pública de Mercado Libre. De ella vamos a extraer publicaciones que luego vamos a guardar en tu propio back-end usando un caché. Para el Front-end vamos a desarrollar una serie de Componentes de React para poder mostrar e interactuar con las publicaciones antes mencionadas.
+            </div>
+
             <div>Autor</div>
             <div className="nameMe">Roberto Vargas Arizmendi</div>
         </div>
@@ -160,7 +166,7 @@ class Search extends React.Component {
                 <form className='formContainer' onSubmit={this.handleSubmit}>
             {/* <label> */}
             {/* Name: */}
-            <input className='formInputSearchCustome' type="search" value={this.state.value} onChange={this.handleChange}   onKeyDown={this._handleKeyDown}
+            <input placeholder="Buscar" className='formInputSearchCustome' type="search" value={this.state.value} onChange={this.handleChange}   onKeyDown={this._handleKeyDown}
             // container_load ={true}
             />
             {/* </label> */}
