@@ -1,3 +1,15 @@
+
+### App.js file in src (folder).
+#### If you'd want to update the value about url of server, you can put any path. In this case, I have put url of server (vercel).
+##### (e.g)
+ 
+##### // var linkApi = "http://localhost:4000/";
+##### var linkApi = "https://ucamptechnicaltestserverapivercel.vercel.app/"; 
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# React . . .
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
